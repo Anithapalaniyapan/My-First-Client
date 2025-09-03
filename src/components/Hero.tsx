@@ -6,7 +6,7 @@ import IconButton from "@mui/material/IconButton";
 import Button from "@mui/material/Button";
 import { keyframes } from "@mui/system";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
-import GitHubIcon from "@mui/icons-material/GitHub";
+
 import EmailRoundedIcon from "@mui/icons-material/EmailRounded";
 
 const slideFromRight = keyframes`
@@ -155,7 +155,7 @@ export default function Hero() {
               animation: `${slideFromRight} 1000ms ease-out both`,
               lineHeight: 1.1,
             }}>
-              I'm Dharanisri Raman
+                                   I&apos;m Dharanisri Raman
             </Typography>
 
             {/* Title */}

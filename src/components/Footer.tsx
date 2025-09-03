@@ -6,7 +6,7 @@ import Link from "@mui/material/Link";
 import IconButton from "@mui/material/IconButton";
 import { keyframes } from "@mui/system";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
-import GitHubIcon from "@mui/icons-material/GitHub";
+
 import EmailRoundedIcon from "@mui/icons-material/EmailRounded";
 
 const fadeInUp = keyframes`
@@ -14,17 +14,7 @@ const fadeInUp = keyframes`
   to { opacity: 1; transform: translateY(0); }
 `;
 
-const floatGently = keyframes`
-  0% { transform: translateY(0px); }
-  50% { transform: translateY(-8px); }
-  100% { transform: translateY(0px); }
-`;
 
-const pulseGlow = keyframes`
-  0% { box-shadow: 0 0 20px rgba(0, 188, 212, 0.3); }
-  50% { box-shadow: 0 0 30px rgba(0, 188, 212, 0.6); }
-  100% { box-shadow: 0 0 20px rgba(0, 188, 212, 0.3); }
-`;
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();

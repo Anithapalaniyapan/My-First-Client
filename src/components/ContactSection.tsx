@@ -211,7 +211,7 @@ export default function ContactSection() {
               animation: `${slideInRight} 800ms ease-out both`,
               animationDelay: "600ms",
             }}>
-              Feel free to contact me for any questions or opportunities. I'm always open to discussing new projects, creative ideas, or opportunities to be part of your vision.
+              Feel free to contact me for any questions or opportunities. I&apos;m always open to discussing new projects, creative ideas, or opportunities to be part of your vision.
             </Typography>
           </Box>
         </Box>
@@ -226,7 +226,7 @@ export default function ContactSection() {
           animation: `${fadeInUp} 800ms ease-out both`,
           animationDelay: "800ms",
         }}>
-          {contactInfo.map((info, index) => (
+                           {contactInfo.map((info) => (
             <Box key={info.label} sx={{
               background: "rgba(255,255,255,0.95)",
               borderRadius: 4,

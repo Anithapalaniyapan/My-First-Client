@@ -2,7 +2,7 @@
 
 import Box from "@mui/material/Box";
 import Typography from "@mui/material/Typography";
-import Chip from "@mui/material/Chip";
+
 import Button from "@mui/material/Button";
 import { keyframes } from "@mui/system";
 import DownloadIcon from "@mui/icons-material/Download";
@@ -66,7 +66,7 @@ export default function AboutSection() {
             animation: `${fadeInUp} 800ms ease-out both`,
             animationDelay: "200ms",
           }}>
-            I'm a passionate UI/UX designer with a keen eye for creating intuitive and engaging digital experiences. My approach combines creative design thinking with user-centered methodologies to deliver solutions that not only look great but also provide seamless user interactions.
+            I&apos;m a passionate UI/UX designer with a keen eye for creating intuitive and engaging digital experiences. My approach combines creative design thinking with user-centered methodologies to deliver solutions that not only look great but also provide seamless user interactions.
           </Typography>
 
           {/* Download Resume Button */}
@@ -107,7 +107,7 @@ export default function AboutSection() {
           animation: `${fadeInUp} 800ms ease-out both`,
           animationDelay: "600ms",
         }}>
-          {skills.map((skill, index) => (
+                           {skills.map((skill) => (
             <Box key={skill.name} sx={{
               background: "rgba(255,255,255,0.8)",
               borderRadius: 3,
