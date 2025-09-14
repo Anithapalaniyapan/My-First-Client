@@ -25,17 +25,17 @@ const projectData = [
     color: "#ff7262"
   },
   {
-    title: "Food Delivery App",
-    tag: "Mobile",
-    description: "User-friendly food ordering experience with seamless navigation",
-    image: "/project 1.jpg",
+    title: "Perfume E-commerce Website",
+    tag: "Web",
+    description: "Beautiful and responsive e-commerce website for a perfume brand, offering a seamless shopping experience with detailed product descriptions and high-quality images.",
+    image: "/perfume design.jpg",
     color: "#a259ff"
   },
   {
-    title: "Booking System",
-    tag: "Product",
-    description: "Streamlined appointment booking with calendar integration",
-    image: "/dharanisri.jpg",
+    title: "Portfolio Website",
+    tag: "Web",
+    description: "Beautiful and responsive portfolio website showcasing my work and skills, providing a seamless user experience with a clean and modern design.",
+    image: "/portfolio-project.jpg",
     color: "#1abcfe"
   }
 ];
