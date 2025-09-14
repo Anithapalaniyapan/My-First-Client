@@ -173,14 +173,15 @@ export default function ContactSection() {
             maxWidth: 900,
             mx: "auto",
             textAlign: "left",
-            background: "rgba(255,255,255,0.8)",
+            background: "rgba(255,255,255,0.9)",
             borderRadius: 4,
-            p: { xs: 3, md: 4 },
+            p: { xs: 4, md: 4 },
             backdropFilter: "blur(15px)",
             border: "1px solid rgba(255,255,255,0.9)",
             boxShadow: "0 12px 40px rgba(0,0,0,0.1)",
             position: "relative",
             overflow: "hidden",
+            minHeight: { xs: "120px", md: "auto" },
             "&::before": {
               content: '""',
               position: "absolute",
@@ -204,12 +205,13 @@ export default function ContactSection() {
             </Typography>
             
             <Typography sx={{
-              fontSize: { xs: 15, md: 17 },
+              fontSize: { xs: 14, md: 16 },
               color: "#2b3a51",
               opacity: 0.9,
               lineHeight: 1.7,
               animation: `${slideInRight} 800ms ease-out both`,
               animationDelay: "600ms",
+              minHeight: { xs: "60px", md: "auto" },
             }}>
               Feel free to contact me for any questions or opportunities. I&apos;m always open to discussing new projects, creative ideas, or opportunities to be part of your vision.
             </Typography>
