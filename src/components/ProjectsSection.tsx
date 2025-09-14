@@ -28,14 +28,14 @@ const projectData = [
     title: "Food Delivery App",
     tag: "Mobile",
     description: "User-friendly food ordering experience with seamless navigation",
-    image: "/vercel.svg", // Replace with your project image
+    image: "/project 1.jpg",
     color: "#a259ff"
   },
   {
     title: "Booking System",
     tag: "Product",
     description: "Streamlined appointment booking with calendar integration",
-    image: "/vercel.svg", // Replace with your project image
+    image: "/dharanisri.jpg",
     color: "#1abcfe"
   }
 ];
@@ -121,8 +121,27 @@ export default function ProjectsSection() {
                     objectFit: "cover",
                     display: "block",
                     transition: "transform 0.4s ease",
-                  }} 
+                  }}
+                  onError={(e) => {
+                    const target = e.target as HTMLImageElement;
+                    target.style.display = 'none';
+                  }}
                 />
+                {/* Fallback content when image fails to load */}
+                <Box sx={{
+                  position: "absolute",
+                  top: "50%",
+                  left: "50%",
+                  transform: "translate(-50%, -50%)",
+                  textAlign: "center",
+                  color: project.color,
+                  fontSize: "48px",
+                  fontWeight: "bold",
+                  opacity: 0.3,
+                  display: "none",
+                }}>
+                  {project.title.charAt(0)}
+                </Box>
                 {/* Hover overlay */}
                 <Box sx={{
                   position: "absolute",
